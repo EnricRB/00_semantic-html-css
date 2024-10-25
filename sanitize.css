@@ -1,0 +1,80 @@
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+img {
+    border: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 19px;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, 
+[type="button"], 
+[type="reset"], 
+[type="submit"] {
+    appearance: button;
+}
+
+fieldset {
+    padding: 6px 12px 10px;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type="search"] {
+    appearance: textfield;
+    outline-offset: 2px;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
